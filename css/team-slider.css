@@ -1,0 +1,92 @@
+.team-slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    padding: 12px 0 16px;
+}
+.team-slider {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding: 8px 4px 20px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #dccfc0 #f5ede3;
+    justify-content: flex-start;
+}
+
+.team-slider::-webkit-scrollbar {
+    height: 6px;
+}
+
+.team-slider::-webkit-scrollbar-track {
+    background: #f5ede3;
+    border-radius: 12px;
+}
+
+.team-slider::-webkit-scrollbar-thumb {
+    background: #dccfc0;
+    border-radius: 12px;
+}
+
+.team-card {
+    display: flex;
+    flex-direction: row;
+    flex: 0 0 240px;
+    background: #fffaf5;
+    border-radius: 32px 16px 32px 16px;
+    padding: 24px 20px 28px;
+    text-align: center;
+    border: 1px solid #eee5d9;
+    box-shadow: 0 4px 14px rgba(140, 100, 70, 0.06);
+    transition: 0.25s;
+    align-items: center;
+}
+
+.team-card:hover {
+    border-color: #dccfc0;
+    transform: scale(1.02);
+    box-shadow: 0 12px 28px rgba(140, 100, 70, 0.12);
+}
+
+.team-avatar {
+    width: 300px;
+    height: 400px;
+    margin: 0 auto 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    color: #b48b7a;
+    background: #f5ede3;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
+    object-fit: cover;
+}
+
+.team-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 120px;
+    width: 210px;
+}
+
+.team-card h4 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3d2e24;
+    margin-bottom: 4px;
+}
+
+.team-role {
+    font-weight: 500;
+    color: #b48b7a;
+    font-size: 15px;
+    margin-bottom: 6px;
+}
+
+.team-desc {
+    font-size: 13px;
+    color: #7a6454;
+}

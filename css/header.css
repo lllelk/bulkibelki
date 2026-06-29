@@ -1,0 +1,86 @@
+.header {
+    background-color: #fff8f0;
+    border-bottom: 1px solid #e6dacb;
+    padding: 16px 0;
+    box-shadow: 0 2px 12px rgba(140, 100, 70, 0.06);
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(4px);
+    max-height: 10%;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    gap: 16px 20px;
+    text-align: left;
+}
+
+.logo-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.logo-icon {
+    font-size: 28px;
+    color: #b48b7a;
+    /* width: 100px; */
+
+    max-width: 250px;
+}
+
+.logo-text {
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 0.3px;
+    color: #4f3a2e;
+}
+
+.logo-text span {
+    font-weight: 300;
+    color: #b48b7a;
+}
+
+.nav {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4f3a2e;
+    padding: 6px 0;
+    border-bottom: 2px solid transparent;
+    transition: 0.2s;
+}
+
+.nav a:hover {
+    border-bottom-color: #b48b7a;
+    color: #8b6b5b;
+}
+
+.nav a i {
+    margin-right: 6px;
+    font-size: 14px;
+    color: #b48b7a;
+}
+
+.social-header {
+    display: flex;
+    gap: 14px;
+    font-size: 20px;
+    color: #6d5546;
+}
+
+.social-header a:hover {
+    color: #b48b7a;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
